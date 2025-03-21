@@ -4,6 +4,7 @@ import AboutMe from './components/AboutMe.vue'
 import Projects from './components/TheProjects.vue'
 import Skills from './components/TheSkills.vue'
 import Experience from './components/TheExperience.vue'
+import Education from './components/TheEducation.vue'
 import TechStack from './components/TechStack.vue'
 import ContactForm from './components/ContactForm.vue'
 import Footer from './components/TheFooter.vue'
@@ -15,6 +16,7 @@ const navItems = [
   { name: 'Projects', href: '#projects' },
   { name: 'Skills', href: '#skills' },
   { name: 'Experience', href: '#experience' },
+  { name: 'Education', href: '#education' },
   { name: 'Contact', href: '#contact' },
 ]
 
@@ -59,37 +61,39 @@ const skills = [
 
 const experience = [
   {
-    year: '2022 - Present',
-    title: 'Senior Full Stack Developer at Tech Innovators',
-    description:
-      'Leading development of cloud-based SaaS products. Architected microservices infrastructure and mentored junior developers.',
+    year: 'October 2023 - Present',
+    title: 'Freelancing',
+    description: 'Freelancing by building professional mobile apps, websites and webapps.',
     color: 'bg-blue-300',
   },
   {
-    year: '2020 - 2022',
-    title: 'Full Stack Developer at Digital Solutions Inc.',
-    description:
-      'Developed and maintained e-commerce platforms and content management systems for enterprise clients.',
+    year: 'July 2023 - October 2023',
+    title: 'Mobile app Developer at Micro Sun and Solutions.',
+    description: 'Developed and maintained mobile apps for various clients.',
     color: 'bg-green-300',
   },
+]
+
+const education = [
   {
-    year: '2018 - 2020',
-    title: 'Frontend Developer at Creative Agency',
-    description:
-      'Created responsive web applications and interactive user interfaces for various clients in retail and finance sectors.',
-    color: 'bg-yellow-300',
+    year: '2023 - 2027',
+    title: 'HiLCoE School of Computer Science and Technology.',
+    description: 'Learning Software Engineering.',
+    color: 'bg-blue-300',
   },
 ]
 
 const techStack = [
+  { name: 'Flutter', color: 'bg-purple-300', rotate: 'rotate-1' },
+  { name: 'Laravel', color: 'bg-red-300', rotate: '-rotate-2' },
+  { name: 'MySQL', color: 'bg-yellow-300', rotate: 'rotate-2' },
+  { name: 'SQLite', color: 'bg-blue-300', rotate: '-rotate-1' },
+  { name: 'SQL Server', color: 'bg-green-300', rotate: 'rotate-1' },
+  { name: 'Tailwind CSS', color: 'bg-teal-300', rotate: '-rotate-2' },
   { name: 'Vue', color: 'bg-green-300', rotate: 'rotate-2' },
-  { name: 'Nuxt.js', color: 'bg-gray-200', rotate: '-rotate-1' },
   { name: 'TypeScript', color: 'bg-blue-400', rotate: 'rotate-1' },
   { name: 'Node.js', color: 'bg-green-400', rotate: '-rotate-2' },
   { name: 'Express', color: 'bg-gray-300', rotate: 'rotate-1' },
-  { name: 'MongoDB', color: 'bg-green-300', rotate: '-rotate-1' },
-  { name: 'PostgreSQL', color: 'bg-blue-300', rotate: 'rotate-2' },
-  { name: 'GraphQL', color: 'bg-pink-300', rotate: '-rotate-2' },
 ]
 </script>
 
@@ -101,6 +105,7 @@ const techStack = [
       <Projects />
       <Skills :skills="skills" />
       <Experience :experience="experience" />
+      <Education :education="education" />
       <TechStack :techStack="techStack" />
       <ContactForm />
     </main>

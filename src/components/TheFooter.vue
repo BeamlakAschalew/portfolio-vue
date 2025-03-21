@@ -30,25 +30,24 @@ defineProps({
           >
             {{ item.name }}
           </a>
-          <a href="#" class="font-bold hover:underline">Privacy</a>
         </div>
 
         <!-- Social Icons -->
         <div class="flex gap-3">
           <a
-            href="#"
+            href="https://github.com/BeamlakAschalew"
             class="h-10 w-10 flex items-center justify-center rotate-1 border-2 border-black bg-white shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] transition-all hover:rotate-0 hover:bg-gray-100"
           >
             <Github class="h-5 w-5" />
           </a>
           <a
-            href="#"
+            href="https://et.linkedin.com/in/beamlak-aschalew-a0866622b"
             class="h-10 w-10 flex items-center justify-center -rotate-1 border-2 border-black bg-white shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] transition-all hover:rotate-0 hover:bg-gray-100"
           >
             <Linkedin class="h-5 w-5" />
           </a>
           <a
-            href="#"
+            href="mailto:beamlakaschalew.19@gmail.com"
             class="h-10 w-10 flex items-center justify-center rotate-2 border-2 border-black bg-white shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] transition-all hover:rotate-0 hover:bg-gray-100"
           >
             <Mail class="h-5 w-5" />

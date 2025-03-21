@@ -39,20 +39,17 @@ import { Github, Linkedin, Mail } from 'lucide-vue-next'
           <!-- About Text -->
           <div class="md:w-2/3">
             <p class="mb-4 text-lg font-bold">
-              Hi there! I'm a passionate Full Stack Developer with over 5 years of experience
-              building exceptional digital experiences.
+              Selam (Hello)! I am Beamlak Aschalew, passionate Full Stack and mobile app Developer
+              with over 5 years of experience building high quality softwares.
             </p>
 
             <p class="mb-4 font-medium">
               I specialize in creating responsive, user-friendly applications using modern
-              technologies like Vue, TypeScript, and Node.js. My approach combines technical
-              expertise with creative problem-solving to deliver solutions that exceed expectations.
+              technologies like Vue, and Laravel. My approach combines technical expertise with
+              creative problem-solving to deliver solutions that exceed expectations.
             </p>
 
-            <p class="mb-6 font-medium">
-              When I'm not coding, you can find me exploring new technologies, contributing to
-              open-source projects, or hiking in the mountains.
-            </p>
+            <p class="mb-6 font-medium"></p>
 
             <div class="flex flex-wrap gap-4">
               <a
@@ -71,21 +68,24 @@ import { Github, Linkedin, Mail } from 'lucide-vue-next'
               </a>
 
               <div class="flex gap-3">
-                <button
-                  class="h-14 w-14 rotate-3 border-4 border-black bg-white shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all hover:rotate-0 hover:bg-gray-100 hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)]"
+                <a
+                  href="https://github.com/BeamlakAschalew"
+                  class="flex items-center justify-center h-14 w-14 rotate-3 border-4 border-black bg-white shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all hover:rotate-0 hover:bg-gray-100 hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)]"
                 >
                   <Github class="h-6 w-6 mx-auto" />
-                </button>
-                <button
-                  class="h-14 w-14 -rotate-2 border-4 border-black bg-white shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all hover:rotate-0 hover:bg-gray-100 hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)]"
+                </a>
+                <a
+                  href="https://et.linkedin.com/in/beamlak-aschalew-a0866622b"
+                  class="flex items-center justify-center h-14 w-14 -rotate-2 border-4 border-black bg-white shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all hover:rotate-0 hover:bg-gray-100 hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)]"
                 >
                   <Linkedin class="h-6 w-6 mx-auto" />
-                </button>
-                <button
-                  class="h-14 w-14 rotate-1 border-4 border-black bg-white shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all hover:rotate-0 hover:bg-gray-100 hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)]"
+                </a>
+                <a
+                  href="mailto:beamlakaschalew.19@gmail.com"
+                  class="flex items-center justify-center h-14 w-14 rotate-1 border-4 border-black bg-white shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all hover:rotate-0 hover:bg-gray-100 hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)]"
                 >
                   <Mail class="h-6 w-6 mx-auto" />
-                </button>
+                </a>
               </div>
             </div>
           </div>
