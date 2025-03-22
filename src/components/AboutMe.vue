@@ -64,7 +64,7 @@ import { Github, Linkedin, Mail } from 'lucide-vue-next'
               </a>
 
               <a
-                href="/beamlak_aschalew_cv.pdf"
+                href="/files/beamlak_aschalew_cv.pdf"
                 target="_blank"
                 class="-rotate-2 border-4 border-black bg-blue-400 px-6 py-6 text-lg font-black text-black shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] transition-all hover:rotate-0 hover:bg-blue-500 hover:shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]"
               >
