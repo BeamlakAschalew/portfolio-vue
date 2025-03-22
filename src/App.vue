@@ -37,7 +37,7 @@ const skills = [
     name: 'Database',
     icon: Database,
     color: 'bg-green-300',
-    items: ['MySQL', 'SQLite', 'SQL Server', 'Eloquent'],
+    items: ['MySQL', 'SQLite', 'SQL Server', 'Redis', 'Eloquent'],
   },
   {
     name: 'Mobile',
@@ -94,6 +94,7 @@ const techStack = [
   { name: 'TypeScript', color: 'bg-blue-400', rotate: 'rotate-1' },
   { name: 'Node.js', color: 'bg-green-400', rotate: '-rotate-2' },
   { name: 'Express', color: 'bg-gray-300', rotate: 'rotate-1' },
+  { name: 'Redis', color: 'bg-red-300', rotate: '-rotate-2' },
 ]
 </script>
 

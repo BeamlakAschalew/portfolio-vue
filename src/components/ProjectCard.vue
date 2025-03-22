@@ -57,7 +57,7 @@ defineProps({
           class="flex-1 flex items-center justify-center border-2 border-black bg-black font-bold text-white shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all hover:bg-gray-900 hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] py-2"
         >
           <ArrowUpRight class="mr-2 h-5 w-5" />
-          Demo
+          Link
         </a>
       </div>
     </div>

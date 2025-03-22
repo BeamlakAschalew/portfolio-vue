@@ -20,16 +20,13 @@ defineProps({
           <span class="text-xl">Beamlak</span>
         </div>
 
-        <!-- Links -->
-        <div class="flex flex-wrap gap-4">
-          <a
-            v-for="item in navItems"
-            :key="item.name"
-            :href="item.href"
-            class="font-bold hover:underline"
+        <!-- Copyright -->
+        <div class="text-center">
+          <p
+            class="inline-block -rotate-1 border-2 border-black bg-white px-4 py-2 font-bold shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]"
           >
-            {{ item.name }}
-          </a>
+            {{ new Date().getFullYear() }} | Built using Vuejs 💚.
+          </p>
         </div>
 
         <!-- Social Icons -->
@@ -53,15 +50,6 @@ defineProps({
             <Mail class="h-5 w-5" />
           </a>
         </div>
-      </div>
-
-      <!-- Copyright -->
-      <div class="mt-8 text-center">
-        <p
-          class="inline-block -rotate-1 border-2 border-black bg-white px-4 py-2 font-bold shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]"
-        >
-          {{ new Date().getFullYear() }} | Built using Vue 💚.
-        </p>
       </div>
     </div>
   </footer>

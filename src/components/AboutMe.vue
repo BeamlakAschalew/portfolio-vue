@@ -24,14 +24,14 @@ import { Github, Linkedin, Mail } from 'lucide-vue-next'
 
         <div class="flex flex-col gap-6 md:flex-row">
           <!-- Profile Photo -->
-          <div class="w-full max-w-[300px] md:w-1/3 mx-auto md:mx-0">
+          <div class="mx-auto w-full max-w-[300px] md:mx-0 md:w-1/3">
             <div
               class="rotate-2 border-4 border-black bg-white p-2 shadow-[6px_6px_0px_0px_rgba(0,0,0,1)]"
             >
               <img
                 src="/images/avatar.jpg"
                 alt="Profile Photo"
-                class="h-full w-full object-cover border-2 border-black aspect-square"
+                class="aspect-square h-full w-full border-2 border-black object-cover"
               />
             </div>
           </div>
@@ -49,7 +49,11 @@ import { Github, Linkedin, Mail } from 'lucide-vue-next'
               creative problem-solving to deliver solutions that exceed expectations.
             </p>
 
-            <p class="mb-6 font-medium"></p>
+            <p class="mb-6 font-medium">
+              I am currently a 3<sup>rd</sup> year Software Engineering student at HiLCoE, other
+              than Vuejs and Laravel I am also experienced with MySQL, HTML, CSS, JS, Java, C++ and
+              C#, I took the latter 3 as a college courses.
+            </p>
 
             <div class="flex flex-wrap gap-4">
               <a
@@ -70,21 +74,21 @@ import { Github, Linkedin, Mail } from 'lucide-vue-next'
               <div class="flex gap-3">
                 <a
                   href="https://github.com/BeamlakAschalew"
-                  class="flex items-center justify-center h-14 w-14 rotate-3 border-4 border-black bg-white shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all hover:rotate-0 hover:bg-gray-100 hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)]"
+                  class="flex h-14 w-14 rotate-3 items-center justify-center border-4 border-black bg-white shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all hover:rotate-0 hover:bg-gray-100 hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)]"
                 >
-                  <Github class="h-6 w-6 mx-auto" />
+                  <Github class="mx-auto h-6 w-6" />
                 </a>
                 <a
                   href="https://et.linkedin.com/in/beamlak-aschalew-a0866622b"
-                  class="flex items-center justify-center h-14 w-14 -rotate-2 border-4 border-black bg-white shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all hover:rotate-0 hover:bg-gray-100 hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)]"
+                  class="flex h-14 w-14 -rotate-2 items-center justify-center border-4 border-black bg-white shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all hover:rotate-0 hover:bg-gray-100 hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)]"
                 >
-                  <Linkedin class="h-6 w-6 mx-auto" />
+                  <Linkedin class="mx-auto h-6 w-6" />
                 </a>
                 <a
                   href="mailto:beamlakaschalew.19@gmail.com"
-                  class="flex items-center justify-center h-14 w-14 rotate-1 border-4 border-black bg-white shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all hover:rotate-0 hover:bg-gray-100 hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)]"
+                  class="flex h-14 w-14 rotate-1 items-center justify-center border-4 border-black bg-white shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all hover:rotate-0 hover:bg-gray-100 hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)]"
                 >
-                  <Mail class="h-6 w-6 mx-auto" />
+                  <Mail class="mx-auto h-6 w-6" />
                 </a>
               </div>
             </div>

@@ -5,7 +5,7 @@ import ProjectCard from './ProjectCard.vue'
 <template>
   <section class="p-6 md:p-8" id="projects">
     <h2
-      class="mb-8 inline-block -rotate-1 border-4 border-black bg-white px-6 py-2 text-3xl font-black uppercase shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] md:text-4xl"
+      class="mb-8 mt-20 inline-block -rotate-1 border-4 border-black bg-white px-6 py-2 text-3xl font-black uppercase shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] md:text-4xl"
     >
       Projects
     </h2>
