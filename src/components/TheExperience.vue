@@ -19,7 +19,7 @@ defineProps({
       <div
         v-for="(item, index) in experience"
         :key="index"
-        class="mb-8 flex flex-col gap-10 md:flex-row"
+        class="mb-20 flex flex-col gap-2 md:flex-row md:gap-10"
       >
         <!-- Year -->
         <div class="mb-4 md:mb-0 md:w-1/4">
