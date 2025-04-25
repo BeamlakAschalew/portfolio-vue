@@ -6,7 +6,6 @@ import Skills from './components/TheSkills.vue'
 import Experience from './components/TheExperience.vue'
 import Education from './components/TheEducation.vue'
 import TechStack from './components/TechStack.vue'
-import ContactForm from './components/ContactForm.vue'
 import Footer from './components/TheFooter.vue'
 
 import { Globe, Server, Database, Smartphone, Zap, Code } from 'lucide-vue-next'
@@ -17,7 +16,6 @@ const navItems = [
   { name: 'Skills', href: '#skills' },
   { name: 'Experience', href: '#experience' },
   { name: 'Education', href: '#education' },
-  { name: 'Contact', href: '#contact' },
 ]
 
 const skills = [
@@ -108,7 +106,6 @@ const techStack = [
       <Experience :experience="experience" />
       <Education :education="education" />
       <TechStack :techStack="techStack" />
-      <ContactForm />
     </main>
     <Footer :navItems="navItems" />
   </div>

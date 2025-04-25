@@ -1,5 +1,8 @@
 <script setup>
 import { Github, Linkedin, Mail } from 'lucide-vue-next'
+
+const phoneNumber = '+251 936648802'
+const telegramUsername = '@theAbyssinianLad'
 </script>
 
 <template>
@@ -39,20 +42,19 @@ import { Github, Linkedin, Mail } from 'lucide-vue-next'
           <!-- About Text -->
           <div class="md:w-2/3">
             <p class="mb-4 text-lg font-bold">
-              Selam (Hello)! I am Beamlak Aschalew, passionate Full Stack and mobile app Developer
-              with over 5 years of experience building high quality softwares.
+              Selam (Hello)! I'm Beamlak Aschalew, a curious developer who loves building websites
+              and applications that solve problems.
             </p>
 
             <p class="mb-4 font-medium">
-              I specialize in creating responsive, user-friendly applications using modern
-              technologies like Vue, and Laravel. My approach combines technical expertise with
-              creative problem-solving to deliver solutions that exceed expectations.
+              I develop websites and applications with modern technologies, great attention to
+              detail and a focus on user experience. I work on both personal projects and in teams,
+              always trying to keep things genuine and straightforward.
             </p>
 
             <p class="mb-6 font-medium">
-              I am currently a 3<sup>rd</sup> year Software Engineering student at HiLCoE, other
-              than Vuejs and Laravel I am also experienced with MySQL, HTML, CSS, JS, Java, C++ and
-              C#, I took the latter 3 as a college courses.
+              Currently a 3<sup>rd</sup> year Software Engineering student at HiLCoE. When I'm not
+              coding, you'll find me exploring new tech, reading articles, or watching football.
             </p>
 
             <div class="flex flex-wrap gap-4">
@@ -91,6 +93,24 @@ import { Github, Linkedin, Mail } from 'lucide-vue-next'
                   <Mail class="mx-auto h-6 w-6" />
                 </a>
               </div>
+            </div>
+
+            <div class="mt-4 space-y-1 text-lg font-medium">
+              <p>
+                Phone:
+                <a :href="`tel:${phoneNumber}`" class="text-blue-600 hover:underline">{{
+                  phoneNumber
+                }}</a>
+              </p>
+              <p>
+                Telegram:
+                <a
+                  :href="`https://t.me/${telegramUsername.slice(1)}`"
+                  target="_blank"
+                  class="text-blue-600 hover:underline"
+                  >{{ telegramUsername }}</a
+                >
+              </p>
             </div>
           </div>
         </div>
