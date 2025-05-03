@@ -20,6 +20,14 @@ import ProjectCard from './ProjectCard.vue'
         demoLink="https://flixquest.beamlak.dev"
       />
       <ProjectCard
+        title="Soystreams"
+        description="Web app where you can stream radio stations and podcasts built using Vuejs"
+        imageUrl="/images/soy.png"
+        :tags="['Vuejs', 'Laravel', 'REST API']"
+        codeLink="https://github.com/BeamlakAschalew/soystreams"
+        demoLink="https://soystreams.beamlak.dev"
+      />
+      <ProjectCard
         title="asciify"
         description="A small webapp to convert any image into ASCII characters"
         imageUrl="/images/ascii.png"
