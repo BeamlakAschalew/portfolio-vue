@@ -45,7 +45,8 @@ defineProps({
         <a
           :href="codeLink"
           target="_blank"
-          class="flex-1 flex items-center justify-center border-2 border-black bg-white font-bold text-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all hover:bg-gray-100 hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] py-2"
+          v-if="codeLink"
+          class="flex flex-1 items-center justify-center border-2 border-black bg-white py-2 font-bold text-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all hover:bg-gray-100 hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)]"
         >
           <Github class="mr-2 h-5 w-5" />
           Code
@@ -54,7 +55,7 @@ defineProps({
           v-if="demoLink"
           :href="demoLink"
           target="_blank"
-          class="flex-1 flex items-center justify-center border-2 border-black bg-black font-bold text-white shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all hover:bg-gray-900 hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] py-2"
+          class="flex flex-1 items-center justify-center border-2 border-black bg-black py-2 font-bold text-white shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all hover:bg-gray-900 hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)]"
         >
           <ArrowUpRight class="mr-2 h-5 w-5" />
           Link

@@ -28,6 +28,21 @@ import ProjectCard from './ProjectCard.vue'
         demoLink="https://soystreams.beamlak.dev"
       />
       <ProjectCard
+        title="Pharmacy management"
+        description="Web app developed for a client used for pharmacy ecommerce"
+        imageUrl="/images/ph.png"
+        :tags="['Vuejs', 'Laravel', 'MySQL', 'Inertiajs']"
+        codeLink="https://github.com/BeamlakAschalew/ph-admin"
+        demoLink="https://ph.beamlak.dev"
+      />
+      <ProjectCard
+        title="Elelyale Award"
+        description="A voting web app developed for habesha breweries used during the elelyale award event"
+        imageUrl="/images/elelyale.png"
+        :tags="['React.js', 'Laravel', 'MySQL', 'Inertiajs']"
+        demoLink="https://elelyaleshilmat.com"
+      />
+      <ProjectCard
         title="asciify"
         description="A small webapp to convert any image into ASCII characters"
         imageUrl="/images/ascii.png"
